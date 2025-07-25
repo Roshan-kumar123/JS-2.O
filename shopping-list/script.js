@@ -18,6 +18,7 @@ function addItem(e) {
   listItem.appendChild(deleteButton);
   itemList.appendChild(listItem);
 
+  // clear the input field
   formInput.value = "";
 }
 
